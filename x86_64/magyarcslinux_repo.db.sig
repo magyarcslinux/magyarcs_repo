@@ -1,0 +1,1 @@
+magyarcslinux_repo.db.tar.gz.sig
