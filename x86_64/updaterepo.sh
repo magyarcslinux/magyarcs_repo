@@ -3,11 +3,11 @@
 # echo "Fájlok törlése"
 
 
-rm magyarlinux_repo*
+rm magyararcslinux_repo*
 
 
 echo "repo-add"
-repo-add  magyarcslinux_repo.db.tar.gz *.pkg.tar.xz
+repo-add  magyararcslinux_repo.db.tar.gz *.pkg.tar.xz
 #sleep 8
 cp  magyararcslinux_repo.db.tar.gz magyararcslinux_repo.db
 
