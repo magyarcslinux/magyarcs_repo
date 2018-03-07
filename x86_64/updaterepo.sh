@@ -7,9 +7,9 @@ rm magyarcs_repo*
 
 
 echo "repo-add"
-repo-add  magyarcs_repo.db.tar.gz *.pkg.tar.xz
+repo-add  -s  magyarcs_repo.db.tar.gz *.pkg.tar.xz
 #sleep 8
-cp  magyarcs_repo.db.tar.gz magyarcs_repo.db
+cp  -f magyarcs_repo.db.tar.gz magyarcs_repo.db
 
 echo "####################################"
 echo "Repo Updated!!"
